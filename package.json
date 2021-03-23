@@ -1,0 +1,20 @@
+{
+  "name": "wizeline_session2",
+  "version": "1.0.0",
+  "description": "Assestment2",
+  "main": "index.js",
+  "scripts": {
+    "newman-run": "newman run ./Todoist/api/collections/Todoist.postman_collection.json -e ./Todoist/api/envVariables/QA.postman_environment.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardo345/Wizeline_Session2.git"
+  },
+  "author": "Ricardo Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardo345/Wizeline_Session2/issues"
+  },
+  "homepage": "https://github.com/cardo345/Wizeline_Session2#readme"
+}
